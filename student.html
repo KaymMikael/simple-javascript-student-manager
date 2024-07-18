@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/student.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h1>Student Record</h1>
+        <a href="records.html" class="view-records">View Records</a>
+        <p class="student-id">Id: 1</p>
+        <div class="input-container flex">
+          <input
+            type="text"
+            placeholder="First name"
+            autocomplete="new-password"
+            class="firstName"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            autocomplete="new-password"
+            class="lastName"
+          />
+        </div>
+        <div class="input-container flex">
+          <input
+            type="number"
+            placeholder="Age"
+            min="1"
+            autocomplete="new-password"
+            class="age"
+          />
+          <input
+            type="text"
+            placeholder="Address"
+            autocomplete="new-password"
+            class="address"
+          />
+        </div>
+        <div class="button-container">
+          <button class="button-save-student btn-save">Save</button>
+        </div>
+        <div class="error-container">
+          <p class="error-message">
+            Please input all fields<i
+              class="fa-solid fa-triangle-exclamation error-icon"
+            ></i>
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/student.js" type="module"></script>
+  </body>
+</html>

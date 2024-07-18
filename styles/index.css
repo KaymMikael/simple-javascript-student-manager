@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 10px 0;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.inner-container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-inline: auto;
+  padding: 20px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container input {
+  padding: 5px 12px;
+  width: 100%;
+  margin: 6px 0;
+}
+
+.inner-container input:focus {
+  outline-color: lightblue;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  margin-top: 6px;
+}
+
+.button-add-student {
+  font-size: 1rem;
+  padding: 0.3em 2.5em;
+  background-color: rgb(50, 50, 254);
+  color: white;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all ease 0.25s;
+}
+
+.button-add-student:active {
+  opacity: 0.6;
+}
+
+.error-message {
+  margin-top: 6px;
+  font-size: 14px;
+  text-align: center;
+  display: none;
+}
+
+.show-error{
+    display: block;
+}
+
+.error-icon {
+  color: red;
+  margin-left: 6px;
+}
+
+.btn-view-records{
+  margin-top: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-view-records:hover{
+  color: red;
+}
